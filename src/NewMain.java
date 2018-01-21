@@ -19,10 +19,11 @@ public class NewMain {
         DeckOfCards myCards = new DeckOfCards();
         
       
+        //Unshuffled deck
         
-        System.out.print(myCards.cards[0].name + "\n");
-        System.out.print(myCards.cards[1].name + "\n");
-        System.out.print(myCards.cards[2].name + "\n");
+       // System.out.print(myCards.cards[0].name + "\n");
+       // System.out.print(myCards.cards[1].name + "\n");
+        // System.out.print(myCards.cards[2].name + "\n");
         
         myCards.shuffleDeck();
       
@@ -31,11 +32,18 @@ public class NewMain {
         System.out.print(myCards.cards[1].name + "\n");
         System.out.print(myCards.cards[2].name + "\n");
         
+System.out.print(myCards.drawCardFromtop() + "\n");
+System.out.print(myCards.drawCardFromtop() + "\n");
+System.out.print(myCards.drawCardFromtop() + "\n");
 
-     System.out.print(myCards.drawCardFromtop().name);
-        System.out.print(myCards.drawCardFromtop().name);
-        System.out.print(myCards.drawCardFromtop().name);
-        System.out.print(myCards.drawCardFromtop().name);
+System.out.print("antal kort" + myCards.noOfCards + "\n");
+
+myCards.fillDeck();
+
+System.out.print("antal kort" + myCards.noOfCards + "\n");
+
+  //System.out.print(myCards.noOfCards + "\n");     
+   
    
    
    
